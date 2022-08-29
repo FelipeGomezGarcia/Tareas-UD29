@@ -4,7 +4,7 @@ table{
     padding: 4px;
 }
 th,td{
-    border: 2px rgb(4, 202, 252) solid;
+    border: 1px rgb(4, 202, 252) solid;
     padding: 1px;
     margin: 0px;
 }
