@@ -1,5 +1,26 @@
 table{
     width: 100%;
     border: 2px black solid;
-    padding: 2px;
+    padding: 0px;
+    border-collapse:separate;
+}
+th{
+    box-shadow: 0 0 2px 2px #888;
+    border: 1px black solid;
+    padding: 1px;
+    margin: 0px;
+}
+.rojo{
+    color: red;
+}
+#celda1{
+    background-color: greenyellow;
+}
+#celda2{
+    background-color: rgb(10, 184, 207);
+}
+#celda6{
+    background-color: pink;
+    text-align: right;
+    vertical-align: bottom;
 }
