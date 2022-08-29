@@ -1,19 +1,70 @@
+body{
+    background-image: url(/Imagenes/ac.jpg);
+}
 table{
-    color: red;
-    text-align: center;
-    border: 2px black solid;
-    background-image: url("textura.jpg");
+    border: 1px white solid;
+    border-spacing: 50px;
 }
-th,td{
-    border: 1px;
-    border-color: blanchedalmond;
-    border-style: solid;
-    padding-left: 5px;
-    padding-right: 5px;
+td{
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
 }
-th{
-    background-color: rgb(223, 162, 82);
+.modA{
+    background-image: url(Imagenes/back_mantel.jpg);
 }
-#titulo{
-    background-color: green;
+.modB{
+    background-image: url(Imagenes/back_mantel.jpg);
+    background-clip: content-box;
+    padding: 10px;
+}
+.modC{
+    background-image: url(Imagenes/back_mantel.jpg);
+    background-size: 100% 100%;
+}
+.modD{
+    background-color: white;
+    background-image: url(Imagenes/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    padding: 10px;
+}
+.modE{
+    background-image: url(/Imagenes/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modF{
+    background-image: url(/Imagenes/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.modG{
+    background-color: white;
+    background-image: url(/Imagenes/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.modH{
+    background-color: white;
+    background-image: url(/Imagenes/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.modI{
+    background: linear-gradient(to right, #d2ff52 0%, #566647 100%);
+}
+.modJ{
+    background: linear-gradient(to bottom, rgba(240,183,161,1) 0%, rgba(140,51,16,1) 80%, rgba(117,34,1,1) 51%, rgba(191,118,78,1) 100%);
+}
+.modK{
+    background: linear-gradient(to top, rgba(50,116,4,1) 0%, rgba(239,239,210,1) 100%);
+}
+.modL{
+    background: linear-gradient(to top, rgba(50,116,45,1) 0%, rgb(0,0,0,0) 100%);
 }
