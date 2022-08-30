@@ -2,7 +2,7 @@ table{
     color: red;
     text-align: center;
     border: 2px black solid;
-    background-image: url("textura.jpg");
+    background-image: url("/PR06/Sources/textura.jpg");
 }
 th,td{
     border: 1px;
