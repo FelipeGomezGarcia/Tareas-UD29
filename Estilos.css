@@ -1,4 +1,56 @@
-.anterior{
+#anterior{
     background-color: rgb(65, 236, 236);
-    border: 2px red solid;
+    border: 2px rgb(43, 128, 255) solid;
+    background-size: 50%;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+#contenido{
+    background-color: rgb(65, 236, 236);
+    border: 3px rgb(255, 57, 43) solid;
+    background-size: 50%;
+    width: 800px;
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}
+#posterior{
+    background-color: rgb(65, 236, 236);
+    border: 2px rgb(43, 128, 255) solid;
+    background-size: 50%;
+    width: 400px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.cielo1{
+    background-image: url(/Imagenes/f03.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat-x;
+    height: inherit;
+}
+.cielo{
+    background-image: url(/Imagenes/f03.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    height: inherit;
+}
+.suelo{
+    background-image: url(/Imagenes/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: inherit;
+}
+.fondo{
+    background-image: url(/Imagenes/f02.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: left bottom;
+    height: inherit;
 }
