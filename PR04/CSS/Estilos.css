@@ -1,0 +1,28 @@
+body{
+    background-image: url("/PR04/Sources/imagen_fondo.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100px;
+    background-size: 50%;
+}
+table{
+    width: 50%;
+    border: 2px black solid;
+    padding: 0px;
+    border-collapse:separate;
+    text-align: center;
+    margin: auto;
+    margin-top: 350px;
+}
+th,td{
+    box-shadow: 0 0 2px 2px #b1ff32;
+    border: 1px black solid;
+    padding: 1px;
+    margin: 0px;
+}
+th{
+    background-color: greenyellow;
+}
+td{
+    background-color: rgb(226, 255, 96);
+}
