@@ -29,26 +29,26 @@
     margin-left: 5px;
 }
 .cielo1{
-    background-image: url(/PR08/Imagenes/f03.png);
+    background-image: url(../Imagenes/f03.png);
     background-size: contain;
     background-position: top;
     background-repeat: repeat-x;
     height: inherit;
 }
 .cielo{
-    background-image: url(/PR08/Imagenes/f03.png);
+    background-image: url(../Imagenes/f03.png);
     background-position: top;
     background-repeat: repeat-x;
     height: inherit;
 }
 .suelo{
-    background-image: url(/PR08/Imagenes/f01.png);
+    background-image: url(../Imagenes/f01.png);
     background-repeat: repeat-x;
     background-position: bottom;
     height: inherit;
 }
 .fondo{
-    background-image: url(/PR08/Imagenes/f02.png);
+    background-image: url(../Imagenes/f02.png);
     background-repeat: no-repeat;
     background-clip: content-box;
     background-position: left bottom;

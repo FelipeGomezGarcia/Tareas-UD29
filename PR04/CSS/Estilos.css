@@ -1,5 +1,5 @@
 body{
-    background-image: url("/PR04/Sources/imagen_fondo.jpeg");
+    background-image: url("../Sources/imagen_fondo.jpeg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 100px;
